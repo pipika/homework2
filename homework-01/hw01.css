@@ -1,0 +1,40 @@
+.wrapper {
+      margin: 25px 310px 25px 310px;
+      padding: 25px 130px 25px 130px;
+      border: 1px solid;
+      background-color: lightgrey;
+      font-family: Tahoma;
+      font-size: 12px;
+}
+.name {
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: bold;
+      font-size: 20px;
+      font-family: arial;
+}
+hr    {
+
+      width: 100%; height: 1px;
+}
+.box1 {
+      font-size: 15px;
+      font-weight: bold;
+}
+p     {
+      font-size: 10px;
+      padding: 10px 170px 10px 35px ;
+}
+
+.main-link {
+      color: royalblue;
+      padding: 35px;
+}
+.img  {
+      padding: 20px;
+      text-align: center;
+}
+
+.image {
+      border: 1px solid black;
+}
