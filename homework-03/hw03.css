@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url(Open_Sans.ttf);
+}
+
+body {
+  font-family: "Open Sans";
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.wrapper {
+  margin: 0px auto;
+  padding: 0 20px;
+  background-color: white;
+  max-width: 965px;
+}
+
+.main_menu ul {
+  display: flex;
+  /*padding: 15px;*/
+  background: #525151;
+  margin: 40px 0 40px 0;
+} 
+
+.main_menu li {
+  margin-right: 50px;
+  padding: 15px;
+}
+
+.main_menu li:hover {
+  background-color: #464646;
+}
+
+.main_menu a {
+  color: white;
+  text-decoration: none;
+} 
+
+.content {
+  display: flex;
+}
+
+.content aside {
+  width: 240px;
+  flex-shrink: 0;
+  margin-right: 50px;
+}
+
+.sidebar li {
+  padding: 10px;
+  border: 1px solid #C8C8C8;
+}
+
+.sidebar a {
+  color: #656363;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #2c2c2c;
+}
+
+article {
+}
+
+.img_bike {
+ border: 1px solid #c8c8c8;
+ text-align: center;
+}
+
+.image_bike {
+  max-width: 100%;
+}
+
+p {
+  margin-top: 40px;
+  margin-left: 25px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #e1e1e1;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.footer_menu ul {
+  display: flex;
+  padding: 15px;
+}
+
+.footer_menu li {
+  margin-right: 96px;
+}
+
+.footer_menu a {
+  color: #2c2c2c;
+  text-decoration: none;
+}
+
+.footer_menu a:hover {
+  text-decoration: underline;
+}
+
+.copy {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+   
+
+
